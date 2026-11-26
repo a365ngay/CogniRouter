@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Angular"
+  short_description: "Senior Angular development and review"
+  default_prompt: "Use $senior-angular to implement or review this Angular change."

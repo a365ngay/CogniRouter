@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Business Analyst"
+  short_description: "Senior requirements and process analysis"
+  default_prompt: "Use $senior-business-analyst to turn this request into an implementable specification."

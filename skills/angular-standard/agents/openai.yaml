@@ -1,0 +1,7 @@
+﻿interface:
+  display_name: "Angular Standard"
+  short_description: "Angular patterns for safe agent changes"
+  default_prompt: "Use $angular-standard to implement or review Angular code using the project's version, CLI, standalone/component, forms, routing, and testing conventions."
+
+policy:
+  allow_implicit_invocation: true

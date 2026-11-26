@@ -1,0 +1,7 @@
+﻿interface:
+  display_name: "NestJS Standard"
+  short_description: "NestJS patterns for safe agent changes"
+  default_prompt: "Use $nestjs-standard to implement or review NestJS code using the project's existing architecture and validation patterns."
+
+policy:
+  allow_implicit_invocation: true

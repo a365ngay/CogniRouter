@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Flutter"
+  short_description: "Senior Flutter development and review"
+  default_prompt: "Use $senior-flutter to implement or review this Flutter change."

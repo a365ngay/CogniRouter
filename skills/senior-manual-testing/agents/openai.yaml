@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Manual Testing"
+  short_description: "Senior manual test design and execution"
+  default_prompt: "Use $senior-manual-testing to create or execute a risk-based test plan."

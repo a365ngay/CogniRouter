@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Backend Engineer"
+  short_description: "Senior backend implementation and review"
+  default_prompt: "Use $senior-backend-engineer to design or review this backend change."

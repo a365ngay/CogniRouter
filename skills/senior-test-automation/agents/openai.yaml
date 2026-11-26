@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Test Automation"
+  short_description: "Senior automated testing strategy and code"
+  default_prompt: "Use $senior-test-automation to design or improve automated test coverage."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Design"
+  short_description: "Senior product and UX design guidance"
+  default_prompt: "Use $senior-design to shape a clear, testable product and UX design."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Kubernetes"
+  short_description: "Senior Kubernetes platform and delivery work"
+  default_prompt: "Use $senior-kubernetes to design, review, or troubleshoot this Kubernetes change."

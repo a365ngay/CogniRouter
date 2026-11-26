@@ -1,0 +1,7 @@
+﻿interface:
+  display_name: "Tester Standard"
+  short_description: "Test strategy and QA execution guidance"
+  default_prompt: "Use $tester-standard to plan, execute, or review testing work with risk-based coverage and clear evidence."
+
+policy:
+  allow_implicit_invocation: true

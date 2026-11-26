@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior NestJS"
+  short_description: "Senior NestJS development and review"
+  default_prompt: "Use $senior-nestjs to implement or review this NestJS change."

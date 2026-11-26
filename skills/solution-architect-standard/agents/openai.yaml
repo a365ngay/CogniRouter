@@ -1,0 +1,7 @@
+﻿interface:
+  display_name: "Solution Architect Standard"
+  short_description: "Architecture decisions and system design"
+  default_prompt: "Use $solution-architect-standard to design or review solution architecture with explicit tradeoffs and delivery slices."
+
+policy:
+  allow_implicit_invocation: true

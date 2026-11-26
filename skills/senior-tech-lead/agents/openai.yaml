@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Tech Lead"
+  short_description: "Senior technical leadership and architecture"
+  default_prompt: "Use $senior-tech-lead to assess architecture, delivery risk, and technical decisions."

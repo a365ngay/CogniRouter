@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://skill-compass.local/schemas/execution-result.schema.json",
+  "title": "ExecutionResult",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "task_id",
+    "status",
+    "changed_files",
+    "commands_executed",
+    "build",
+    "tests",
+    "lint",
+    "browser_verification",
+    "remaining_errors",
+    "warnings",
+    "diff_summary",
+    "evidence",
+    "needs_controller_decision",
+    "recommended_next_action"
+  ],
+  "properties": {
+    "task_id": { "type": "string" },
+    "status": {
+      "type": "string",
+      "enum": ["PASS", "FAIL", "PARTIAL", "BLOCKED"]
+    },
+    "changed_files": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "commands_executed": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "build": { "$ref": "#/$defs/check" },
+    "tests": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status"],
+      "properties": {
+        "status": { "$ref": "#/$defs/checkStatus" },
+        "passed": { "type": "integer", "minimum": 0 },
+        "failed": { "type": "integer", "minimum": 0 },
+        "message": { "type": "string" }
+      }
+    },
+    "lint": { "$ref": "#/$defs/check" },
+    "browser_verification": { "$ref": "#/$defs/check" },
+    "remaining_errors": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/error" }
+    },
+    "warnings": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "diff_summary": { "type": "string" },
+    "evidence": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/evidence" }
+    },
+    "needs_controller_decision": { "type": "boolean" },
+    "recommended_next_action": { "type": "string" }
+  },
+  "$defs": {
+    "checkStatus": {
+      "type": "string",
+      "enum": ["PASS", "FAIL", "NOT_RUN", "NOT_REQUIRED", "UNKNOWN"]
+    },
+    "check": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status"],
+      "properties": {
+        "status": { "$ref": "#/$defs/checkStatus" },
+        "message": { "type": "string" }
+      }
+    },
+    "error": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "code": { "type": "string" },
+        "file": { "type": "string" },
+        "line": { "type": "integer", "minimum": 1 },
+        "message": { "type": "string" },
+        "log_excerpt": { "type": "string" }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "summary"],
+      "properties": {
+        "type": { "type": "string" },
+        "path": { "type": "string" },
+        "summary": { "type": "string" }
+      }
+    }
+  }
+}
+

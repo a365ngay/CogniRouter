@@ -1,0 +1,20 @@
+# Local, private configuration (never commit)
+local/*.md
+!local/*.example.md
+.env
+.env.*
+*.pem
+*.key
+
+# Runtime output
+dist/
+state/
+*.log
+*.jsonl
+
+# Python / OS
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior PostgreSQL"
+  short_description: "Senior PostgreSQL design and performance"
+  default_prompt: "Use $senior-postgresql to design, review, or optimize this PostgreSQL work."

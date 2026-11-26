@@ -1,0 +1,7 @@
+﻿interface:
+  display_name: "Python Standard"
+  short_description: "Python patterns for safe agent changes"
+  default_prompt: "Use $python-standard to implement or review Python code using the project's runtime, packaging, typing, and testing conventions."
+
+policy:
+  allow_implicit_invocation: true

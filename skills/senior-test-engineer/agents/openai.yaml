@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Test Engineer"
+  short_description: "Senior quality strategy and test coverage"
+  default_prompt: "Use $senior-test-engineer to assess quality risks and define verification."

@@ -1,0 +1,169 @@
+{
+  "version": 1,
+  "note": "Third-party skills are fetched at install time from their own repositories at the pinned commit; they are not redistributed in this repo. Refresh pins with: python installer/router.py lock --refresh",
+  "upstreams": [
+    {
+      "id": "taste-skill",
+      "repo": "https://github.com/Leonxlnx/taste-skill.git",
+      "commit": "d1a2bb41d927083ac7118f60cfc9cdf711810ea0",
+      "license": "see upstream",
+      "default": true,
+      "skills": [
+        {
+          "name": "design-taste-frontend",
+          "path": "skills/taste-skill"
+        }
+      ]
+    },
+    {
+      "id": "taste-skill-classic",
+      "repo": "https://github.com/Leonxlnx/taste-skill.git",
+      "commit": "b9ca2fd8047f4c72d7da90ebc1c1203e57c72cd2",
+      "license": "see upstream",
+      "default": true,
+      "skills": [
+        {
+          "name": "redesign-existing-projects",
+          "path": "skills/redesign-skill"
+        },
+        {
+          "name": "minimalist-ui",
+          "path": "skills/minimalist-skill"
+        },
+        {
+          "name": "industrial-brutalist-ui",
+          "path": "skills/brutalist-skill"
+        },
+        {
+          "name": "stitch-design-taste",
+          "path": "skills/stitch-skill"
+        },
+        {
+          "name": "brandkit",
+          "path": "skills/brandkit"
+        },
+        {
+          "name": "imagegen-frontend-web",
+          "path": "skills/imagegen-frontend-web"
+        },
+        {
+          "name": "imagegen-frontend-mobile",
+          "path": "skills/imagegen-frontend-mobile"
+        }
+      ],
+      "note": "Upstream later merged these into one skill; pinned to the last commit that still ships them."
+    },
+    {
+      "id": "typeui",
+      "repo": "https://github.com/bergside/typeui.git",
+      "commit": "efc5f21dff38692e4eaffc304fed465d7cb531e8",
+      "license": "MIT",
+      "default": true,
+      "skills": [
+        {
+          "name": "typeui-fundamentals",
+          "path": "skills/fundamentals"
+        }
+      ]
+    },
+    {
+      "id": "awesome-design-skills",
+      "repo": "https://github.com/bergside/awesome-design-skills.git",
+      "commit": "f631a09b4fcc0166f2e2c1a8c81906ef680c57e8",
+      "license": "MIT",
+      "default": true,
+      "skills": [
+        {
+          "name": "enterprise",
+          "path": "skills/enterprise"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-skills",
+      "repo": "https://github.com/anthropics/skills.git",
+      "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "license": "see LICENSE.txt in each skill",
+      "default": true,
+      "skills": [
+        {
+          "name": "frontend-design",
+          "path": "skills/frontend-design"
+        }
+      ]
+    },
+    {
+      "id": "ui-ux-pro-max",
+      "repo": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git",
+      "commit": "a0d04109f4193a04ec6959549cd735d95ecaa90a",
+      "license": "see upstream",
+      "default": true,
+      "skills": [
+        {
+          "name": "ui-ux-pro-max",
+          "path": ".claude/skills/ui-ux-pro-max"
+        }
+      ]
+    },
+    {
+      "id": "interface-design",
+      "repo": "https://github.com/Dammyjay93/interface-design.git",
+      "commit": "2f9be3206855bcb2d1d0af262c8bae25cba6658d",
+      "license": "see upstream",
+      "default": true,
+      "skills": [
+        {
+          "name": "interface-design",
+          "path": ".claude/skills/interface-design"
+        }
+      ]
+    },
+    {
+      "id": "uncodixfy",
+      "repo": "https://github.com/cyxzdev/Uncodixfy.git",
+      "commit": "e0e028058b5259debdd94b78147c6d6c77bf7da2",
+      "license": "MIT",
+      "default": true,
+      "skills": [
+        {
+          "name": "Uncodixfy",
+          "path": ".",
+          "exclude": [
+            "images",
+            ".github"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "understand-anything",
+      "repo": "https://github.com/Egonex-AI/Understand-Anything.git",
+      "commit": "1d7418b8abfa543744ae029e63a482aee03f9022",
+      "license": "see upstream",
+      "default": false,
+      "note": "Claude Code users should prefer the official plugin. Enable here for other hosts with --upstream understand-anything.",
+      "skills": [
+        {
+          "name": "understand",
+          "path": "understand-anything-plugin/skills/understand"
+        },
+        {
+          "name": "understand-chat",
+          "path": "understand-anything-plugin/skills/understand-chat"
+        },
+        {
+          "name": "understand-diff",
+          "path": "understand-anything-plugin/skills/understand-diff"
+        },
+        {
+          "name": "understand-explain",
+          "path": "understand-anything-plugin/skills/understand-explain"
+        },
+        {
+          "name": "understand-onboard",
+          "path": "understand-anything-plugin/skills/understand-onboard"
+        }
+      ]
+    }
+  ]
+}

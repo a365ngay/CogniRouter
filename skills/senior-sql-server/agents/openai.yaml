@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior SQL Server"
+  short_description: "Senior SQL Server design and performance"
+  default_prompt: "Use $senior-sql-server to design, review, or optimize this SQL Server work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Next.js"
+  short_description: "Senior Next.js development and review"
+  default_prompt: "Use $senior-nextjs to implement or review this Next.js change."

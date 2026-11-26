@@ -1,0 +1,13 @@
+interface:
+  display_name: "Jira BA Dev Test Flow"
+  short_description: "Standard BA, dev, test workflow for Jira"
+  default_prompt: "Use $jira-ba-dev-test-flow to run a BA-Dev-Test Jira workflow from a consolidated requirements document."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "mcp_atlassian"
+      description: "Atlassian MCP server for creating, commenting, linking, and transitioning Jira issues."
+
+policy:
+  allow_implicit_invocation: true

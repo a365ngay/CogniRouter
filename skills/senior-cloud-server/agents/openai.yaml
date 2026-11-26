@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Cloud Server"
+  short_description: "Senior cloud server and operations guidance"
+  default_prompt: "Use $senior-cloud-server to design, review, or troubleshoot this server work."

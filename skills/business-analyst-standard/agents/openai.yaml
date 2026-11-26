@@ -1,0 +1,7 @@
+﻿interface:
+  display_name: "Business Analyst Standard"
+  short_description: "BA requirements and Jira-ready analysis"
+  default_prompt: "Use $business-analyst-standard to analyze requirements and produce implementation-ready stories and acceptance criteria."
+
+policy:
+  allow_implicit_invocation: true
