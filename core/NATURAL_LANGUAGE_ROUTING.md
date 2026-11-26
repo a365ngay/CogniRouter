@@ -16,7 +16,6 @@ Provider-neutral policy for choosing skills, agents, and tools. It works the sam
 | Intent | Primary skill | Deep reference (optional) |
 |---|---|---|
 | Requirements, user stories, acceptance criteria | senior-business-analyst | business-analyst-standard |
-| Full SRS document + UI package from any input | ba-srs-builder | senior-business-analyst |
 | Architecture, contracts, trade-offs, rollout | senior-tech-lead | solution-architect-standard |
 | Multi-package delivery that may need agents | senior-delivery-orchestrator | — |
 | Backend services / APIs | senior-backend-engineer | — |

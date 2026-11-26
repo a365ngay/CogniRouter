@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- `ba-srs-builder` is no longer bundled (51 bundled skills).
+
 ## 1.1.0 - 2026-11-26
 
 - 22 new bundled skills (52 total):

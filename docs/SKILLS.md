@@ -6,7 +6,6 @@ Path: `<skills dir>/<name>/SKILL.md` (the skills dir is named in your host instr
 | Skill | Use when | Source |
 |---|---|---|
 | `angular-standard` | Standards and workflows for implementing, reviewing, debugging, modernizing, and scaffolding Angular applications. Use when working on Angular components, standalone imports, templates, signals, RxJS, forms, Angular Material, routing, guards, resolvers,... | cognirouter |
-| `ba-srs-builder` | Full business-analyst delivery from any input to a complete SRS (software requirements specification) in Word plus a standalone HTML/CSS/SVG UI package. Use whenever the user wants to write, draft or update an SRS, a functional specification or... | cognirouter |
 | `business-analyst-standard` | Standards and workflows for business analysis, including requirement discovery, stakeholder clarification, scope definition, user stories, acceptance criteria, business rules, process flows, data requirements, non-functional requirements, Jira-ready... | cognirouter |
 | `execute-browser-verify` | Run deterministic browser smoke verification from a TaskSpec and return screenshots, console, and network evidence. | cognirouter |
 | `execute-build-test` | Run scoped build, lint, and test commands from a TaskSpec and summarize failures without full logs. | cognirouter |

@@ -71,7 +71,7 @@ Provider setup (GLM, Kimi, DeepSeek, local models): see [docs/PROVIDERS.md](docs
 
 ## Skills
 
-**Bundled (MIT, 52 skills)**
+**Bundled (MIT, 51 skills)**
 
 | Group | Skills |
 |---|---|
@@ -83,7 +83,7 @@ Provider setup (GLM, Kimi, DeepSeek, local models): see [docs/PROVIDERS.md](docs
 | Engineering practice | `senior-code-review`, `senior-refactoring`, `senior-api-design`, `senior-performance`, `senior-technical-writing`, `senior-git-workflow` |
 | Deep standards | `angular-standard`, `nestjs-standard`, `python-standard`, `solution-architect-standard`, `business-analyst-standard`, `tester-standard` |
 | Executors (TaskSpec) | `execute-implementation`, `execute-build-test`, `execute-browser-verify`, `execute-debug-evidence` |
-| Deliverables | `ba-srs-builder` (SRS in Word + HTML UI package), `professional-slides`, `jira-ba-dev-test-flow` |
+| Deliverables | `professional-slides`, `jira-ba-dev-test-flow` |
 
 **Fetched from upstream at a pinned commit** (not redistributed, see [NOTICE.md](NOTICE.md)): `interface-design`, `frontend-design`, `design-taste-frontend`, `redesign-existing-projects`, `typeui-fundamentals`, `ui-ux-pro-max`, `Uncodixfy`, `enterprise`, `minimalist-ui`, `industrial-brutalist-ui`, `stitch-design-taste`, `brandkit`, `imagegen-frontend-web`, `imagegen-frontend-mobile`, `webapp-testing`, `mcp-builder`, `skill-creator`, `docx`, `xlsx`, `pdf`, `pptx`; opt-in: Understand-Anything.
 
