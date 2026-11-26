@@ -25,8 +25,8 @@ request ──► ROUTER block (always loaded) ──► SKILLS_INDEX.md ──�
 Requirements: Python 3.8+, and Git (only for the third-party skills).
 
 ```bash
-git clone https://github.com/<you>/cognirouter.git
-cd cognirouter
+git clone https://github.com/a365ngay/CogniRouter.git
+cd CogniRouter
 python installer/cognirouter.py install          # auto-detects installed hosts
 python installer/cognirouter.py status
 ```
