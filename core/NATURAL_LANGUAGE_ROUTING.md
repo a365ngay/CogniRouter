@@ -1,6 +1,6 @@
 # Natural-language routing
 
-Provider-neutral policy for choosing skills, agents, and tools. It works the same on Claude, Codex, Gemini, GLM, Qwen, DeepSeek, Kimi, or any model that can read files. Repository policy (`.skill-compass/` in the repo) wins within its scope; host safety rules always apply.
+Provider-neutral policy for choosing skills, agents, and tools. It works the same on Claude, Codex, Gemini, GLM, Qwen, DeepSeek, Kimi, or any model that can read files. Repository policy (`.cognirouter/` in the repo) wins within its scope; host safety rules always apply.
 
 ## Request to execution
 

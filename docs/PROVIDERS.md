@@ -1,6 +1,6 @@
-# Using Skill Compass with different model providers
+# Using CogniRouter with different model providers
 
-Skill Compass is installed into the **tool** (agent harness), not the model. Pick the tool you already use, point it at any model, and the routing behaves the same.
+CogniRouter is installed into the **tool** (agent harness), not the model. Pick the tool you already use, point it at any model, and the routing behaves the same.
 
 | You want to use | Recommended tool | Install with |
 |---|---|---|
@@ -32,7 +32,7 @@ $env:ANTHROPIC_AUTH_TOKEN = "<your key>"   # keep it in your secret store, never
 claude
 ```
 
-Then `python installer/compass.py install --hosts glm`. The block, skills and subagents are identical to a Claude install.
+Then `python installer/cognirouter.py install --hosts glm`. The block, skills and subagents are identical to a Claude install.
 
 ## Hosts without a native skill tool
 

@@ -1,4 +1,4 @@
-# Skill Compass
+# CogniRouter
 
 **Automatic, provider-neutral skill routing for AI coding agents.**
 
@@ -25,10 +25,10 @@ request ──► ROUTER block (always loaded) ──► SKILLS_INDEX.md ──�
 Requirements: Python 3.8+, and Git (only for the third-party skills).
 
 ```bash
-git clone https://github.com/<you>/skill-compass.git
-cd skill-compass
-python installer/compass.py install          # auto-detects installed hosts
-python installer/compass.py status
+git clone https://github.com/<you>/cognirouter.git
+cd cognirouter
+python installer/cognirouter.py install          # auto-detects installed hosts
+python installer/cognirouter.py status
 ```
 
 Windows: `.\install.ps1` · macOS/Linux: `./install.sh` (same arguments).
@@ -43,7 +43,7 @@ Start a new session in your AI tool afterwards.
 | `install --project path/to/repo` | Write the block into one repo's `AGENTS.md` (+ a `CLAUDE.md` that imports it). |
 | `install --no-upstream` | Offline: bundled skills only. |
 | `install --upstream all` | Also fetch opt-in upstreams (Understand-Anything). |
-| `install --no-skills` | Only the instruction block; skills stay in `~/.skill-compass/skills`. |
+| `install --no-skills` | Only the instruction block; skills stay in `~/.cognirouter/skills`. |
 | `install --dry-run` | Show what would change. |
 | `install --force` | Back up, then replace existing skills/agents that have the same name. |
 | `export --with-skills senior-tech-lead` | Single Markdown prompt for ChatGPT, GLM chat, Gemini app, Claude Projects. |
@@ -60,9 +60,9 @@ Start a new session in your AI tool afterwards.
 | Gemini CLI | `~/.gemini/GEMINI.md` | `~/.agents/skills/` |
 | Qwen Code | `~/.qwen/QWEN.md` | `~/.qwen/skills/` |
 | opencode | `~/.config/opencode/AGENTS.md` | `~/.config/opencode/skills/` |
-| Any repo | `<repo>/AGENTS.md`, `<repo>/CLAUDE.md` | points to `~/.skill-compass/skills/` |
+| Any repo | `<repo>/AGENTS.md`, `<repo>/CLAUDE.md` | points to `~/.cognirouter/skills/` |
 
-The library itself (policies, skills index, every skill, backups, state) lives in `~/.skill-compass/`. The block is wrapped in `<!-- SKILL-COMPASS:START/END -->` markers; text outside the markers is yours and is never touched.
+The library itself (policies, skills index, every skill, backups, state) lives in `~/.cognirouter/`. The block is wrapped in `<!-- COGNIROUTER:START/END -->` markers; text outside the markers is yours and is never touched.
 
 Provider setup (GLM, Kimi, DeepSeek, local models): see [docs/PROVIDERS.md](docs/PROVIDERS.md).
 
@@ -84,7 +84,7 @@ Full list with descriptions: [docs/SKILLS.md](docs/SKILLS.md).
 
 ## Your own systems (MCP)
 
-Copy `~/.skill-compass/local/MCP_DESTINATIONS.example.md` to `MCP_DESTINATIONS.md` in the same folder and list your Jira/Confluence/GitLab hosts and the MCP server name used for each. The router reads it before touching an external system and never falls back to another server for a write. Put host names only; tokens stay in each MCP server's own config.
+Copy `~/.cognirouter/local/MCP_DESTINATIONS.example.md` to `MCP_DESTINATIONS.md` in the same folder and list your Jira/Confluence/GitLab hosts and the MCP server name used for each. The router reads it before touching an external system and never falls back to another server for a write. Put host names only; tokens stay in each MCP server's own config.
 
 ## Repository layout
 
@@ -92,7 +92,7 @@ Copy `~/.skill-compass/local/MCP_DESTINATIONS.example.md` to `MCP_DESTINATIONS.m
 core/          ROUTER.md (the block) + routing, orchestration, routing and safety policies, TaskSpec templates/schemas
 skills/        bundled skills (Agent Skills format: <name>/SKILL.md + references/ + scripts/)
 agents/claude/ senior-work-* subagents for Claude Code
-installer/     compass.py (stdlib only)
+installer/     cognirouter.py (stdlib only)
 local/         *.example.md templates for private config (real files are git-ignored)
 scripts/       optional PowerShell event log + live viewer
 tests/         offline installer tests
@@ -102,14 +102,14 @@ upstream.lock.json  third-party skills and pinned commits
 ## Customize
 
 - **Change routing:** edit `core/NATURAL_LANGUAGE_ROUTING.md` (intent → skill table) or `core/ROUTER.md` (the always-on block), then re-run `install`.
-- **Add a skill:** create `skills/<name>/SKILL.md` with `name` and `description` frontmatter; the index is rebuilt on install. Run `python installer/compass.py index` to refresh `docs/SKILLS.md`.
-- **Per-repository policy:** add a `.skill-compass/` folder with your own policy files to a repo; it takes precedence there.
+- **Add a skill:** create `skills/<name>/SKILL.md` with `name` and `description` frontmatter; the index is rebuilt on install. Run `python installer/cognirouter.py index` to refresh `docs/SKILLS.md`.
+- **Per-repository policy:** add a `.cognirouter/` folder with your own policy files to a repo; it takes precedence there.
 
 ## Development
 
 ```bash
 python -m unittest discover -s tests -v
-python installer/compass.py install --home ./.tmp-home --hosts all --no-upstream
+python installer/cognirouter.py install --home ./.tmp-home --hosts all --no-upstream
 ```
 
 ## License

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://skill-compass.local/schemas/task-spec.schema.json",
+  "$id": "https://cognirouter.local/schemas/task-spec.schema.json",
   "title": "TaskSpec",
   "type": "object",
   "additionalProperties": false,

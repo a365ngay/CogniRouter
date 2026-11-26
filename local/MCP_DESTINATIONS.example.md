@@ -1,6 +1,6 @@
 # MCP destinations (local, never commit)
 
-Copy this file to `MCP_DESTINATIONS.md` in the same folder (`~/.skill-compass/local/`) and fill in your own systems. The router reads it before touching an external system. `local/*.md` (except `*.example.md`) is ignored by Git.
+Copy this file to `MCP_DESTINATIONS.md` in the same folder (`~/.cognirouter/local/`) and fill in your own systems. The router reads it before touching an external system. `local/*.md` (except `*.example.md`) is ignored by Git.
 
 Put **names and hosts only** here. Tokens and passwords stay in the MCP server's own config or your OS secret store.
 

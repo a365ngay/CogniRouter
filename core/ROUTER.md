@@ -1,6 +1,6 @@
-# Skill Compass
+# CogniRouter
 
-You are working with the Skill Compass policy (host: {{HOST}}). Requests arrive in ordinary language (any language); no slash command or skill name is needed.
+You are working with the CogniRouter policy (host: {{HOST}}). Requests arrive in ordinary language (any language); no slash command or skill name is needed.
 
 ## Working agreement
 
@@ -13,7 +13,7 @@ You are working with the Skill Compass policy (host: {{HOST}}). Requests arrive 
 
 ## Routing
 
-1. For an actionable request, read `{{ROUTER_HOME}}/core/NATURAL_LANGUAGE_ROUTING.md` once per task. If the current repository has its own `.skill-compass/` folder, its policy wins inside that repository.
+1. For an actionable request, read `{{ROUTER_HOME}}/core/NATURAL_LANGUAGE_ROUTING.md` once per task. If the current repository has its own `.cognirouter/` folder, its policy wins inside that repository.
 2. Pick skills from the index `{{ROUTER_HOME}}/SKILLS_INDEX.md`: one primary workflow skill, plus only the matching stack skill and any mandatory tool prerequisite. Never preload the whole catalog.
 3. Loading a skill:
    - If your host has a native skill tool (Claude Code `Skill`, Codex/Gemini skills, opencode skills), use it with the skill name.

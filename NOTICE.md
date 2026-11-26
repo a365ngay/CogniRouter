@@ -1,6 +1,6 @@
 # Third-party notice
 
-Everything in `core/`, `skills/`, `agents/`, `installer/`, `scripts/` and `tests/` is part of Skill Compass and licensed under the MIT License (see `LICENSE`).
+Everything in `core/`, `skills/`, `agents/`, `installer/`, `scripts/` and `tests/` is part of CogniRouter and licensed under the MIT License (see `LICENSE`).
 
 The skills listed in `upstream.lock.json` are **not redistributed** in this repository. The installer downloads them from their original repositories at a pinned commit, on your machine, when you run `install`. Each remains under its own license and copyright:
 
