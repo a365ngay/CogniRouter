@@ -1,5 +1,8 @@
 # CogniRouter
 
+[![test](https://github.com/a365ngay/CogniRouter/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/a365ngay/CogniRouter/actions/workflows/test.yml)
+[![Release](https://img.shields.io/github/v/release/a365ngay/CogniRouter)](https://github.com/a365ngay/CogniRouter/releases/latest)
+
 **Automatic, provider-neutral skill routing for AI coding agents.**
 
 Type an ordinary request ("add an export button to the orders page", "review this migration", "write the SRS from these PDFs") and the agent picks the right skill on its own: one primary workflow skill, the matching stack skill, nothing more. No slash commands, no skill names to remember, the same behavior on every model.
