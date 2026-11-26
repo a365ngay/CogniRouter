@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Terraform"
+  short_description: "Senior Terraform and IaC design and review"
+  default_prompt: "Use $senior-terraform to write or review this Terraform change."

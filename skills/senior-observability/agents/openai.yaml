@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Observability"
+  short_description: "Senior logging, metrics, tracing and SRE review"
+  default_prompt: "Use $senior-observability to design or review observability for this change."

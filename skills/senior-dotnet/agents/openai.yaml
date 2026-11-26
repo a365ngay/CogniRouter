@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior .NET"
+  short_description: "Senior C# and ASP.NET Core development and review"
+  default_prompt: "Use $senior-dotnet to implement or review this .NET change."

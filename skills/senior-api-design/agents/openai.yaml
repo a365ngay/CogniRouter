@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior API Design"
+  short_description: "Senior REST, GraphQL and gRPC API design and review"
+  default_prompt: "Use $senior-api-design to design or review this API contract."

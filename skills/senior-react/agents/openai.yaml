@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior React"
+  short_description: "Senior React development and review"
+  default_prompt: "Use $senior-react to implement or review this React change."

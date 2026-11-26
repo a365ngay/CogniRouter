@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Python Backend"
+  short_description: "Senior FastAPI, Django and Flask development and review"
+  default_prompt: "Use $senior-python-backend to implement or review this Python backend change."

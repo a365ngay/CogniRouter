@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Redis"
+  short_description: "Senior Redis caching, queues and review"
+  default_prompt: "Use $senior-redis to design or review this Redis usage."

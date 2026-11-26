@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Java Spring"
+  short_description: "Senior Java and Spring Boot development and review"
+  default_prompt: "Use $senior-java-spring to implement or review this Java or Spring Boot change."

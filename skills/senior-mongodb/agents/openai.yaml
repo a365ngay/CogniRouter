@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior MongoDB"
+  short_description: "Senior MongoDB data modeling and review"
+  default_prompt: "Use $senior-mongodb to design, tune, or review this MongoDB change."

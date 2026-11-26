@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Security"
+  short_description: "Senior application security review and fixes"
+  default_prompt: "Use $senior-security to review or fix the security of this change."

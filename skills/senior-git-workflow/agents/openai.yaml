@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Git Workflow"
+  short_description: "Safe Git branching, history and release work"
+  default_prompt: "Use $senior-git-workflow to handle this Git task safely."

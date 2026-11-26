@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Node.js"
+  short_description: "Senior Node.js backend development and review"
+  default_prompt: "Use $senior-nodejs to implement or review this Node.js change."

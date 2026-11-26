@@ -83,12 +83,40 @@
       "id": "anthropic-skills",
       "repo": "https://github.com/anthropics/skills.git",
       "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
-      "license": "see LICENSE.txt in each skill",
+      "license": "Apache-2.0 (LICENSE.txt in each skill)",
       "default": true,
       "skills": [
         {
           "name": "frontend-design",
           "path": "skills/frontend-design"
+        },
+        {
+          "name": "webapp-testing",
+          "path": "skills/webapp-testing"
+        },
+        {
+          "name": "mcp-builder",
+          "path": "skills/mcp-builder"
+        },
+        {
+          "name": "skill-creator",
+          "path": "skills/skill-creator"
+        },
+        {
+          "name": "docx",
+          "path": "skills/docx"
+        },
+        {
+          "name": "xlsx",
+          "path": "skills/xlsx"
+        },
+        {
+          "name": "pdf",
+          "path": "skills/pdf"
+        },
+        {
+          "name": "pptx",
+          "path": "skills/pptx"
         }
       ]
     },

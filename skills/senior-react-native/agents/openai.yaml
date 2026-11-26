@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior React Native"
+  short_description: "Senior React Native and Expo development and review"
+  default_prompt: "Use $senior-react-native to implement or review this React Native change."

@@ -24,12 +24,38 @@ Provider-neutral policy for choosing skills, agents, and tools. It works the sam
 | Angular | senior-angular | angular-standard |
 | NestJS | senior-nestjs | nestjs-standard |
 | Next.js | senior-nextjs | — |
+| React (non-Next.js) | senior-react | — |
+| Vue / Nuxt | senior-vue | — |
+| React Native / Expo | senior-react-native | — |
 | Flutter / Dart | senior-flutter | — |
-| Python | python-standard | — |
+| Node.js backend (Express, Fastify, Koa, Hono) | senior-nodejs | — |
+| Java / Kotlin, Spring Boot | senior-java-spring | — |
+| C# / .NET, ASP.NET Core | senior-dotnet | — |
+| Go | senior-go | — |
+| Python web backend (FastAPI, Django, Flask) | senior-python-backend | python-standard |
+| Python (scripts, libraries, CLIs, data jobs) | python-standard | — |
 | PostgreSQL | senior-postgresql | — |
 | SQL Server | senior-sql-server | — |
+| MySQL / MariaDB | senior-mysql | — |
+| MongoDB | senior-mongodb | — |
+| Redis / Valkey, caching, queues | senior-redis | — |
+| Docker, compose, images | senior-docker | — |
+| CI/CD pipelines | senior-cicd | — |
+| Terraform / infrastructure as code | senior-terraform | — |
 | Kubernetes | senior-kubernetes | — |
 | Cloud servers, VMs, Linux ops | senior-cloud-server | — |
+| Logging, metrics, tracing, alerts, incidents | senior-observability | — |
+| Application security review or fixes | senior-security | — |
+| Review a diff or pull request | senior-code-review | — |
+| Behavior-preserving refactor | senior-refactoring | — |
+| API contract design (REST, GraphQL, gRPC, events) | senior-api-design | — |
+| Performance investigation and tuning | senior-performance | — |
+| READMEs, ADRs, runbooks, release notes | senior-technical-writing | — |
+| Git branching, conflicts, history, releases | senior-git-workflow | — |
+| Test a local web app with Playwright | webapp-testing | — |
+| Build an MCP server | mcp-builder | — |
+| Create or improve a skill | skill-creator | — |
+| Word, Excel, PDF, PowerPoint files | docx, xlsx, pdf, pptx | — |
 | QA strategy, release readiness | senior-test-engineer | tester-standard |
 | Manual / exploratory / UAT | senior-manual-testing | — |
 | Automated tests | senior-test-automation | — |
@@ -41,7 +67,7 @@ Provider-neutral policy for choosing skills, agents, and tools. It works the sam
 | Jira BA → Dev → Test flow | jira-ba-dev-test-flow | — |
 | Executor work from a TaskSpec | execute-implementation, execute-build-test, execute-browser-verify, execute-debug-evidence | — |
 
-Rules: never load both database skills, both frontend framework skills, or all testing skills by default. A cross-stack request may use one lead role plus one frontend and one backend role with only the matching technologies.
+Rules: load only the database, framework, and language skills the repository actually uses; never load several database skills, several frontend framework skills, or all testing skills by default. Process skills (code review, refactoring, API design, performance, technical writing, Git) are primary skills for that kind of request and pair with at most one matching stack skill. A cross-stack request may use one lead role plus one frontend and one backend role with only the matching technologies.
 
 Use other installed skills (documents, spreadsheets, PDF, Figma, images) when the deliverable calls for them. Preserve design tokens and branding; optional style references never override them.
 

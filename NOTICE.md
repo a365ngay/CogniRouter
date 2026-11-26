@@ -9,7 +9,7 @@ The skills listed in `upstream.lock.json` are **not redistributed** in this repo
 | taste-skill | https://github.com/Leonxlnx/taste-skill | design-taste-frontend, redesign-existing-projects, minimalist-ui, industrial-brutalist-ui, stitch-design-taste, brandkit, imagegen-frontend-web, imagegen-frontend-mobile |
 | typeui | https://github.com/bergside/typeui | typeui-fundamentals |
 | awesome-design-skills | https://github.com/bergside/awesome-design-skills | enterprise |
-| anthropics/skills | https://github.com/anthropics/skills | frontend-design |
+| anthropics/skills | https://github.com/anthropics/skills | frontend-design, webapp-testing, mcp-builder, skill-creator, docx, xlsx, pdf, pptx |
 | ui-ux-pro-max-skill | https://github.com/nextlevelbuilder/ui-ux-pro-max-skill | ui-ux-pro-max |
 | interface-design | https://github.com/Dammyjay93/interface-design | interface-design |
 | Uncodixfy | https://github.com/cyxzdev/Uncodixfy | Uncodixfy |

@@ -71,17 +71,21 @@ Provider setup (GLM, Kimi, DeepSeek, local models): see [docs/PROVIDERS.md](docs
 
 ## Skills
 
-**Bundled (MIT, 30 skills)**
+**Bundled (MIT, 52 skills)**
 
 | Group | Skills |
 |---|---|
 | Roles | `senior-tech-lead`, `senior-business-analyst`, `senior-design`, `senior-backend-engineer`, `senior-frontend-engineer`, `senior-test-engineer`, `senior-manual-testing`, `senior-test-automation`, `senior-delivery-orchestrator` |
-| Stacks | `senior-angular`, `senior-nextjs`, `senior-nestjs`, `senior-flutter`, `senior-postgresql`, `senior-sql-server`, `senior-kubernetes`, `senior-cloud-server` |
+| Frontend & mobile | `senior-angular`, `senior-nextjs`, `senior-react`, `senior-vue`, `senior-flutter`, `senior-react-native` |
+| Backend | `senior-nestjs`, `senior-nodejs`, `senior-java-spring`, `senior-dotnet`, `senior-go`, `senior-python-backend` |
+| Data | `senior-postgresql`, `senior-sql-server`, `senior-mysql`, `senior-mongodb`, `senior-redis` |
+| DevOps & security | `senior-docker`, `senior-cicd`, `senior-terraform`, `senior-kubernetes`, `senior-cloud-server`, `senior-observability`, `senior-security` |
+| Engineering practice | `senior-code-review`, `senior-refactoring`, `senior-api-design`, `senior-performance`, `senior-technical-writing`, `senior-git-workflow` |
 | Deep standards | `angular-standard`, `nestjs-standard`, `python-standard`, `solution-architect-standard`, `business-analyst-standard`, `tester-standard` |
 | Executors (TaskSpec) | `execute-implementation`, `execute-build-test`, `execute-browser-verify`, `execute-debug-evidence` |
 | Deliverables | `ba-srs-builder` (SRS in Word + HTML UI package), `professional-slides`, `jira-ba-dev-test-flow` |
 
-**Fetched from upstream at a pinned commit** (not redistributed, see [NOTICE.md](NOTICE.md)): `interface-design`, `frontend-design`, `design-taste-frontend`, `redesign-existing-projects`, `typeui-fundamentals`, `ui-ux-pro-max`, `Uncodixfy`, `enterprise`, `minimalist-ui`, `industrial-brutalist-ui`, `stitch-design-taste`, `brandkit`, `imagegen-frontend-web`, `imagegen-frontend-mobile`; opt-in: Understand-Anything.
+**Fetched from upstream at a pinned commit** (not redistributed, see [NOTICE.md](NOTICE.md)): `interface-design`, `frontend-design`, `design-taste-frontend`, `redesign-existing-projects`, `typeui-fundamentals`, `ui-ux-pro-max`, `Uncodixfy`, `enterprise`, `minimalist-ui`, `industrial-brutalist-ui`, `stitch-design-taste`, `brandkit`, `imagegen-frontend-web`, `imagegen-frontend-mobile`, `webapp-testing`, `mcp-builder`, `skill-creator`, `docx`, `xlsx`, `pdf`, `pptx`; opt-in: Understand-Anything.
 
 Full list with descriptions: [docs/SKILLS.md](docs/SKILLS.md).
 

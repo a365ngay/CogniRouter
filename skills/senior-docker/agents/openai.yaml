@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Docker"
+  short_description: "Senior Dockerfile and Compose review"
+  default_prompt: "Use $senior-docker to write or review this Docker setup."

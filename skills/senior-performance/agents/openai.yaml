@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Performance"
+  short_description: "Evidence-driven performance investigation and tuning"
+  default_prompt: "Use $senior-performance to investigate or improve the performance of this code."

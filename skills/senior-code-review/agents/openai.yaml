@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Code Review"
+  short_description: "Senior code review of a diff or pull request"
+  default_prompt: "Use $senior-code-review to review this diff or pull request."

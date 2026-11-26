@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Technical Writing"
+  short_description: "READMEs, ADRs, runbooks and developer docs"
+  default_prompt: "Use $senior-technical-writing to write or improve this technical documentation."

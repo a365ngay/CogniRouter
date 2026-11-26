@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Refactoring"
+  short_description: "Safe behavior-preserving refactoring"
+  default_prompt: "Use $senior-refactoring to refactor this code safely."

@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.1.0 - 2026-11-26
+
+- 22 new bundled skills (52 total):
+  - Stacks: `senior-react`, `senior-vue`, `senior-react-native`, `senior-nodejs`, `senior-java-spring`, `senior-dotnet`, `senior-go`, `senior-python-backend`, `senior-mysql`, `senior-mongodb`, `senior-redis`.
+  - DevOps & security: `senior-docker`, `senior-cicd`, `senior-terraform`, `senior-observability`, `senior-security`.
+  - Engineering practice: `senior-code-review`, `senior-refactoring`, `senior-api-design`, `senior-performance`, `senior-technical-writing`, `senior-git-workflow`.
+- New upstream skills from anthropics/skills (Apache-2.0, same pinned commit): `webapp-testing`, `mcp-builder`, `skill-creator`, `docx`, `xlsx`, `pdf`, `pptx`.
+- Routing table covers every new skill; Python web backends route to `senior-python-backend`.
+- Python 3.8 support fixed in the installer; CI runs Python 3.8 on `ubuntu-24.04`.
+
 ## 1.0.0 - 2026-11-26
 
 - Project name: CogniRouter.

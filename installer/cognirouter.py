@@ -29,7 +29,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-VERSION = "1.0.0"
+VERSION = "1.1.0"
 NAME = "cognirouter"
 MARK_START = "<!-- COGNIROUTER:START -->"
 MARK_END = "<!-- COGNIROUTER:END -->"

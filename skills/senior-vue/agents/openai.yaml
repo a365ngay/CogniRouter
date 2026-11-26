@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Vue"
+  short_description: "Senior Vue and Nuxt development and review"
+  default_prompt: "Use $senior-vue to implement or review this Vue change."

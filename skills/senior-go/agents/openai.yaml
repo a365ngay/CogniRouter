@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Go"
+  short_description: "Senior Go development and review"
+  default_prompt: "Use $senior-go to implement or review this Go change."
