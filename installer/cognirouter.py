@@ -154,11 +154,17 @@ def read_text(p: Path) -> str:
     return p.read_text(encoding="utf-8") if p.exists() else ""
 
 
+def _write_lf(p: Path, text: str):
+    # Path.write_text(newline=) needs Python 3.10; open() keeps 3.8 support.
+    with open(p, "w", encoding="utf-8", newline="\n") as f:
+        f.write(text)
+
+
 def write_text(ctx: Ctx, p: Path, text: str):
     if ctx.dry:
         return
     p.parent.mkdir(parents=True, exist_ok=True)
-    p.write_text(text, encoding="utf-8", newline="\n")
+    _write_lf(p, text)
 
 
 def rmtree(path: Path):
@@ -566,7 +572,7 @@ def cmd_export(args):
         parts.append(f"\n---\n\n<!-- skill: {name.strip()} -->\n" + read_text(f))
     out = Path(args.out)
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text("".join(parts), encoding="utf-8", newline="\n")
+    _write_lf(out, "".join(parts))
     print(f"Wrote {out} ({out.stat().st_size // 1024} KB). Paste it into the system prompt / custom instructions / project knowledge.")
 
 
