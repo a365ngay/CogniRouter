@@ -6,8 +6,11 @@ Free skills published on [Agensi](https://www.agensi.io). Each folder is one ski
 |---|---|---|---|
 | User Story & Acceptance Criteria Writer | `user-story-writer/` | `docs/assets/agensi/user-story-writer-logo.png` | `listings/user-story-writer.md` |
 | Test Case Generator | `test-case-generator/` | `docs/assets/agensi/test-case-generator-logo.png` | `listings/test-case-generator.md` |
+| SQL Query Clinic | `sql-query-clinic/` | `docs/assets/agensi/sql-query-clinic-logo.png` | `listings/sql-query-clinic.md` |
+| DB Migration Safety Reviewer | `db-migration-reviewer/` | `docs/assets/agensi/db-migration-reviewer-logo.png` | `listings/db-migration-reviewer.md` |
+| Incident Postmortem | `incident-postmortem/` | `docs/assets/agensi/incident-postmortem-logo.png` | `listings/incident-postmortem.md` |
 
-The two skills share one worked example (voucher at checkout): the story written by the first is the input of the second.
+The user story and test case skills share one worked example (voucher at checkout): the story written by the first is the input of the second. The migration reviewer and postmortem examples tell the same story from both sides: an unsafe index build that locked a hot table.
 
 ## Package
 
