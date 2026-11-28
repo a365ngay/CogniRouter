@@ -3,6 +3,7 @@
 ## Unreleased
 
 - `ba-srs-builder` is no longer bundled (51 bundled skills).
+- `agensi/`: free Agensi skill packages `user-story-writer` and `test-case-generator` (not part of the bundle), with listing copy, logos and `agensi/package.py` to build the upload zips.
 
 ## 1.1.0 - 2026-11-26
 

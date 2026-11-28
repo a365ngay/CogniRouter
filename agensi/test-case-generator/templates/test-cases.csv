@@ -1,0 +1,4 @@
+﻿"ID","Title","Requirement","Type","Priority","Preconditions","Test Data","Steps","Expected Result","Automation Candidate"
+"TC-01","Apply fixed voucher at the minimum subtotal","AC3, BR3","Boundary","P1","WELCOME5 active: $5.00 off, minimum $30.00","Cart subtotal $30.00","1. Open checkout
+2. Enter WELCOME5 in the voucher field
+3. Click Apply","Discount line ""WELCOME5 −$5.00"" is shown; order total before shipping is $25.00","Yes"
